@@ -33,3 +33,12 @@ get_vowels("animal") # [a, i, a]
 get_vowels("sky") # []
 get_vowels("football") # [o, o, a]
 ```
+# Work experience
+**none**
+
+# Education
+1. [Codecademy:Python Develover](https://www.codecademy.com/catalog/language/python?utm_source=pepperjam&utm_medium=affiliate&utm_term=235312&clickId=3643551171&pj_creativeid=8-12462&pj_publisherid=235312)
+2.[JAVARUSH](https://javarush.ru/quests/QUEST_HARVARD_CS50)
+
+# English level
+**A2**
