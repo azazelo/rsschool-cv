@@ -9,6 +9,7 @@
 **Brief personal information:** I am 27 years old,a higher education,
 not married,no children.I love to constantly learn something new,
 improve and achieve my goals.
+
 **My strengths:**
 1. Fast learning
 2. Dislike for low-quality work
@@ -16,3 +17,19 @@ improve and achieve my goals.
 4. Curiosity
 5. Honesty
 6. No bad habits
+# My skills
+- Python
+- HTML
+- CSS
+- GIT 
+- Software testing
+
+# Sample code
+**In Python**
+This example returns the found vowels "a e i o u" in a string
+```def get_vowels(String):
+    return [each for each in String if each in "aeiou"]
+get_vowels("animal") # [a, i, a]
+get_vowels("sky") # []
+get_vowels("football") # [o, o, a]
+```
