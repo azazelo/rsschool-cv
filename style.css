@@ -48,3 +48,21 @@ main{
 font-weight: 900 ;
 text-align: center;
 }
+.my_github{
+margin:20px;
+float:left;    
+}
+.number{
+ float:left;
+ margin:20px;
+ font-weight: 900;   
+}
+.pict{
+ float:left;
+ margin:20px; 
+}
+ a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+}
