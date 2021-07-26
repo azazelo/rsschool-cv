@@ -9,7 +9,7 @@ body{
 }
 main{
    position:absolute;
-   left: 35%;
+   left: 25%;
    border:5px solid cadetblue;
    border-radius: 2%;
    padding:10px;
@@ -59,7 +59,9 @@ float:left;
 }
 .pict{
  float:left;
- margin:20px; 
+ margin:20px;
+ width:50px;
+ height:30px; 
 }
  a{
     text-decoration: none;
