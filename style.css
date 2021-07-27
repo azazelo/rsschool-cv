@@ -1,5 +1,7 @@
 body{
     background-color: rgb(107, 131, 150);
+    margin:auto;
+    width:800px;
 }
 .name{
     color:rgb(233, 10, 10);
@@ -7,9 +9,7 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
-main{
-   position:absolute;
-   left: 25%;
+main{ 
    border:5px solid cadetblue;
    border-radius: 2%;
    padding:10px;
@@ -48,23 +48,26 @@ main{
 font-weight: 900 ;
 text-align: center;
 }
-.my_github{
-margin:20px;
-float:left;    
+.my_github{ 
+    float:left; 
+    margin: 20px;   
 }
 .number{
- float:left;
- margin:20px;
- font-weight: 900;   
+ font-weight: 900; 
+ float:left; 
+ margin: 20px;  
 }
 .pict{
- float:left;
- margin:20px;
- width:50px;
- height:30px; 
+ width:50;
+ height:30; 
+ float:left; 
+ margin: 20px;
 }
  a{
     text-decoration: none;
     font-size: 18px;
     font-weight: 700;
+}
+.photo{
+    text-align: center;
 }
