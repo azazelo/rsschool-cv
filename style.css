@@ -1,5 +1,20 @@
-body{
+html{
     background-color: rgb(107, 131, 150);
+}
+body{
+    margin:0 auto;
+  width: 1440px;
+  height: 2000px;
+   border:5px solid cadetblue;
+   border-radius: 2%;
+   padding:10px;
+   background-color: rgb(238, 228, 235);
+}
+header{
+    margin:0 auto;
+}
+#photo{
+    margin-left:400px; 
 }
 .name{
     color:rgb(233, 10, 10);
@@ -8,13 +23,10 @@ body{
 
 }
 main{
-   position:absolute;
-   left: 35%;
-   border:5px solid cadetblue;
-   border-radius: 2%;
-   padding:10px;
-   margin: 10px;
-   background-color: rgb(238, 228, 235);
+    display: flex;
+    flex-wrap: wrap;
+    gap:110px;
+  
 }
 .tityl{
     text-align: center;
@@ -22,47 +34,97 @@ main{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
 }
 .aboutme{
+    width:650px;
+    height: 200px;
     border:2px solid cadetblue;
-    border-radius: 10%;
     background-color: rgb(179, 180, 180);
     margin: 5px;
-    line-height: 5px;
+    line-height: 15px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
 }
-.bloki{
+.Contaks{
+    width:650px;
+    height: 200px;
     border:2px solid cadetblue;
-    border-radius: 10%;
     background-color: rgb(179, 180, 180);
-    margin: 5px; 
+    margin: 5px;
     line-height: 15px;
-    padding:5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+}
+li{
+    line-height: 25px;
+}
+.code{
+    width:1500px;
+    height: 400px;
+    border:2px solid cadetblue;
+    background-color: rgb(179, 180, 180);
+    margin: 5px;
+    line-height: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+
 }
 .cod{
     background-color: rgb(249, 254, 255);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 40px;
+}
+.bloki{
+    width:390px;
+    height: 150px;
+    border:2px solid cadetblue;
+    background-color: rgb(179, 180, 180);
+    margin: 5px;
+    line-height: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+
 }
 .eхample{
     font-style:italic;
 }
-.sv{
-font-weight: 900 ;
-text-align: center;
+footer{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center; 
+    margin-top: 50px;
 }
-.my_github{
-margin:20px;
-float:left;    
-}
+  
 .number{
- float:left;
  margin:20px;
- font-weight: 900;   
+ font-weight: 900; 
+ font-size: 25px;  
 }
 .pict{
- float:left;
- margin:20px; 
+ margin:20px;
+ width: 90px;
+height: 60px: 
 }
  a{
     text-decoration: none;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 700;
 }
