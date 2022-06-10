@@ -1,11 +1,8 @@
-tml{
-    background-color: rgb(107, 131, 150);
 
-}
 body{
     margin:0 auto;
   width: 1440px;
-  height: 2000px;
+  height: 1750px;
    border:5px solid cadetblue;
    border-radius: 2%;
    padding:10px;
@@ -13,57 +10,67 @@ body{
 }
 header{
     margin:0 auto;
+    display: flex;
 }
 #photo{
-    margin-left:400px; 
+width: 354px;
+height: 354px;
+left: 32px;
+top: 36px;
+border-radius: 222px;
+background-size: cover;
 }
-.name{
-    color:rgb(233, 10, 10);
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+h1{
+font-family: 'Prata';
+font-style: normal;
+font-weight: 400;
+font-size: 100px;
+line-height: 120%;
+color: #222222;
 }
 main{
     display: flex;
     flex-wrap: wrap;
-    gap:110px;
-  
 }
-.tityl{
-    text-align: center;
-    color:darkblue;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+.blok{
+    margin-left: 130px;
+
+}
+h2{
+font-family: 'Prata';
+font-style: normal;
+font-weight: 400;
+font-size: 42px;
+line-height: 20px;
+color: #CA6D18;
+text-align: center;
 }
 .aboutme{
-    width:650px;
-    height: 200px;
-    border:2px solid cadetblue;
-    background-color: rgb(179, 180, 180);
-    margin: 5px;
     line-height: 15px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
 }
 .Contaks{
-    width:650px;
-    height: 200px;
-    border:2px solid cadetblue;
-    background-color: rgb(179, 180, 180);
-    margin: 5px;
-    line-height: 15px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Prata';
     font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
+    font-weight: 400;
+    font-size: 32px;
+    margin-top: 50px;  
 }
 li{
-    line-height: 25px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+p{
+    font-family: 'Prata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    text-align: center;
+}
+.iconlabel{
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
 }
 .code{
     width:1500px;
@@ -88,10 +95,6 @@ li{
     line-height: 40px;
 }
 .bloki{
-    width:390px;
-    height: 150px;
-    border:2px solid cadetblue;
-    background-color: rgb(179, 180, 180);
     margin: 5px;
     line-height: 15px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -99,7 +102,8 @@ li{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 28px;
+    margin-top: 50px;
 
 }
 .eхample{
@@ -128,4 +132,14 @@ height: 60px:
     text-decoration: none;
     font-size: 25px;
     font-weight: 700;
+}
+ol{
+    line-height: 35px;
+}
+footer{
+width:1440px;
+height: 200px;
+display: flex;
+align-items: center;
+justify-content: space-between;
 }
